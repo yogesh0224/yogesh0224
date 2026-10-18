@@ -1,0 +1,39 @@
+name: Render Observation Field
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - "scripts/build_profile.py"
+      - ".github/workflows/render-profile.yml"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  render:
+    runs-on: ubuntu-24.04
+    steps:
+      - name: Check out profile
+        uses: actions/checkout@v4
+        with:
+          persist-credentials: true
+      - name: Install render dependencies
+        run: |
+          sudo apt-get update -qq
+          sudo apt-get install -y fonts-noto-core fonts-inter fonts-liberation
+          python3 -m pip install --user Pillow
+      - name: Generate desktop and mobile animations
+        run: python3 scripts/build_profile.py
+      - name: Commit generated assets to main
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -f assets/hero.gif assets/hero-mobile.gif assets/hero-still.png assets/hero-mobile-still.png
+          if git diff --cached --quiet; then
+            echo "Animation files are already up to date."
+          else
+            git commit -m "Generate approved Observation Field motion assets"
+            git push origin HEAD:main
+          fi
