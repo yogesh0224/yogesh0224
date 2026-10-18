@@ -10,7 +10,7 @@ No analytics counters, third-party badges, image APIs, or hosted font dependenci
   <img src="assets/hero.gif" width="100%" alt="Animated identity for Yogesh Luitel. Large high-contrast lettering remains fixed while a connected research network moves through a glowing observation point." />
 </picture>
 
-I'm Yogesh. In the classroom, I teach people how software works. Outside it, I investigate what software does to people. I build prototypes, test their behavior, and document what the evidence can — and cannot — say.
+I'm Yogesh. In the classroom, I teach people how software works. Outside it, I investigate what software does to people. I build prototypes, test their behavior, and document what the evidence can, and cannot, say.
 
 <sub>SELECTED INVESTIGATIONS &nbsp; / &nbsp; 02</sub>
 
