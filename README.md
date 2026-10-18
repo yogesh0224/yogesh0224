@@ -1,44 +1,29 @@
 <!--
-YOGESH LUITEL / MARGINS OF ERROR — RESEARCH ARCHIVE
-The four research plates are locally stored SVGs. Each is a linked image
-with descriptive alt text and a readable HTML/Markdown caption.
-No external badge, font, animation or statistics services required.
+YOGESH LUITEL / OBSERVATION FIELD V4
+One animated observation system, two focused research investigations.
+GIFs generated locally in this repository by scripts/build_profile.py.
+No analytics counters, third-party badges, image APIs, or hosted font dependencies.
 -->
 
-<img src="assets/cover.png" width="100%" alt="Yogesh Luitel — a research folio asking: Who learns? What leaks? Who decides?" />
+<picture>
+  <source media="(max-width: 680px)" srcset="assets/hero-mobile.gif" />
+  <img src="assets/hero.gif" width="100%" alt="Animated identity for Yogesh Luitel. Large high-contrast lettering remains fixed while a connected research network moves through a glowing observation point." />
+</picture>
 
-I teach computer science. I build systems. Then I investigate what changes when people use them — especially around **learning, privacy, accountability, and human judgment**.
+I'm Yogesh. In the classroom, I teach people how software works. Outside it, I investigate what software does to people. I build prototypes, test their behavior, and document what the evidence can — and cannot — say.
 
-<sub>OPEN FILES / 01—04 &nbsp;·&nbsp; SELECT A PLATE TO EXPLORE THE WORK</sub>
+<sub>SELECTED INVESTIGATIONS &nbsp; / &nbsp; 02</sub>
 
-<a href="https://github.com/yogesh0224/shadowleak"><img src="assets/plate-01.svg" width="100%" alt="01: ShadowLeak. What leaks? Research into privacy disclosure from language models using synthetic records and adversarial prompts. Open repository." /></a>
+### 01 &nbsp; [SHADOWLEAK ↗](https://github.com/yogesh0224/shadowleak)
 
-**ShadowLeak.** Synthetic records, adversarial prompts, and reproducible leakage checks. The study's independent annotation and publication work remain unfinished.
+*Privacy under adversarial prompting.* A reproducible framework that tests whether language models disclose information supplied in synthetic contexts. The experiment and evidence collection are real; independent annotation and publication are not yet complete.
 
-<a href="https://github.com/yogesh0224/genai-education-research"><img src="assets/plate-02.svg" width="100%" alt="02: Generative AI and student learning. Who learns? Evaluating observable learning outcomes rather than model output quality alone. Open repository." /></a>
+### 02 &nbsp; [HUMAN-CENTERED ML ↗](https://github.com/yogesh0224/hci-ml-misconceptions)
 
-**Generative AI & Student Learning.** A research platform examining learning outcomes through NLP-derived features, machine-learning baselines, and statistical analysis.
+*Machine learning that leaves the teacher in charge.* An experimental tool for identifying programming misconceptions with explanations, uncertainty, and human correction. A small pilot explored ML-assisted versus unassisted review.
 
-<a href="https://github.com/yogesh0224/educational-ai-governance-audit-toolkit"><img src="assets/plate-03.svg" width="100%" alt="03: Educational AI Governance Audit Toolkit. Score is not story. Investigating subgroup performance, explainability, and governance risks. Open repository." /></a>
+<sub>THE REST OF THE STORY</sub>
 
-**Educational AI Governance Audit Toolkit.** Looking beyond aggregate scores through subgroup evaluation, explainability, and governance-risk documentation.
+I teach Grade 11–12 computer science at Xavier International College in Nepal. I also engineer Django systems and work with Python, SQL, JavaScript, and empirical ML evaluation. The classroom and the codebase keep informing each other.
 
-<a href="https://github.com/yogesh0224/hci-ml-misconceptions"><img src="assets/plate-04.svg" width="100%" alt="04: Human-Centered ML for Programming Misconceptions. The last word belongs to teachers. A research prototype using model explanations, uncertainty, and teacher corrections. Open repository." /></a>
-
-**Human-Centered ML for Programming Misconceptions.** A teacher-facing prototype with explanations, uncertainty signals, human correction, and a small controlled pilot.
-
-<sub>IN THE MARGINS / ANOTHER EXPERIMENT</sub>
-
-[HUMANPASS ↗](https://github.com/yogesh0224/humanpass-continuous-auth) explores continuous authentication using behavioral signals and adaptive risk controls. It is a research prototype, not a production security guarantee.
-
-<sub>AWAY FROM THE EXPERIMENTS</sub>
-
-I teach Grade 11 and 12 computer science at Xavier International College in Nepal, and mentor students through debugging, code review, and real software projects. My engineering work spans Django, REST APIs, databases, authentication, authorization, and testing.
-
-For research, I use Python, SQL, pandas, SciPy, scikit-learn, and NLP tools. Methods matter as much as implementations: empirical evaluation, subgroup analysis, reproducibility, and clear boundaries around what results can establish.
-
-<sub>WRITE A NOTE / START A CONVERSATION</sub>
-
-[yogeshluitel9@gmail.com](mailto:yogeshluitel9@gmail.com) &nbsp;·&nbsp; [All repositories ↗](https://github.com/yogesh0224?tab=repositories)
-
-<sub>YOGESH LUITEL &nbsp; / &nbsp; NEPAL &nbsp; / &nbsp; RESEARCH, TEACHING, SOFTWARE.</sub>
+[**Explore the code ↗**](https://github.com/yogesh0224?tab=repositories) &nbsp;&nbsp;·&nbsp;&nbsp; [**Get in touch ↗**](mailto:yogeshluitel9@gmail.com)
