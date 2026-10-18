@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="286" viewBox="0 0 1280 286" role="img"><rect width="1280" height="286" fill="#D6DED3"/>
+<rect x="0" y="0" width="11" height="286" fill="#CD5039"/>
+<text x="44" y="42" font-size="19" fill="#697371" font-family="'Courier New',monospace" letter-spacing="1.2">FILE 04    /    HUMAN AGENCY</text>
+<line x1="44" y1="58" x2="1230" y2="58" stroke="#AAB7AA" stroke-width="1" />
+<text x="41" y="157" font-size="95" fill="#172326" font-family="Arial Black,Arial,sans-serif" font-weight="900" letter-spacing="-5">THE LAST</text>
+<text x="41" y="238" font-size="108" fill="#172326" font-family="Georgia,serif" font-style="italic">word.</text>
+<text x="410" y="255" font-size="19" fill="#172326" font-family="'Courier New',monospace" letter-spacing="1">HUMAN-CENTERED ML</text>
+<line x1="781" y1="77" x2="781" y2="245" stroke="#AAB7AA" stroke-width="1" />
+<text x="809" y="115" font-size="27" fill="#697371" font-family="'Courier New',monospace" >MODEL SUGGESTS</text>
+<path d="M824 135 L824 168 L814 156 M824 168 L836 156" fill="none" stroke="#CD5039" stroke-width="3" stroke-linecap="round"/>
+<text x="805" y="215" font-size="39" fill="#172326" font-family="Arial Black,Arial,sans-serif" font-weight="800" letter-spacing="-1.5">HUMAN DECIDES</text>
+<path d="M792 198 C830 172 1140 169 1185 193 C1217 232 1078 243 935 237 C853 233 784 224 792 198 Z" fill="none" stroke="#CD5039" stroke-width="4"/>
+</svg>

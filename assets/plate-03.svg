@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="286" viewBox="0 0 1280 286" role="img"><rect width="1280" height="286" fill="#DCC2B7"/>
+<rect x="0" y="0" width="11" height="286" fill="#172326"/>
+<text x="44" y="42" font-size="19" fill="#172326" font-family="'Courier New',monospace" letter-spacing="1.2">FILE 03    /    GOVERNANCE</text>
+<line x1="44" y1="58" x2="1230" y2="58" stroke="#AD958C" stroke-width="1" />
+<text x="40" y="172" font-size="85" fill="#172326" font-family="Arial Black,Arial,sans-serif" font-weight="900" letter-spacing="-5">SCORE ≠ STORY</text>
+<text x="48" y="261" font-size="17" fill="#172326" font-family="'Courier New',monospace" letter-spacing="1.2">EDUCATIONAL AI GOVERNANCE AUDIT</text>
+<rect x="915" y="83" width="278" height="142" fill="none" stroke="#172326" stroke-width="2" transform="rotate(5 1054 154)"/>
+<text x="954" y="129" font-size="19" fill="#172326" font-family="'Courier New',monospace" letter-spacing="2">OVERALL</text>
+<text x="941" y="182" font-size="35" fill="#172326" font-family="Arial,Helvetica,sans-serif" font-weight="700">ACCURACY</text>
+<path d="M915 213 C974 167 1126 112 1217 91" fill="none" stroke="#CD5039" stroke-width="8" stroke-linecap="round"/>
+<text x="982" y="241" font-size="19" fill="#172326" font-family="Georgia,serif" font-style="italic">Who was missed?</text>
+</svg>
