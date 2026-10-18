@@ -4,6 +4,7 @@ Font binaries are not committed. The output GIFs are committed by GitHub Actions
 """
 from pathlib import Path
 import math
+import subprocess
 from PIL import Image, ImageDraw, ImageFont
 
 ROOT=Path(__file__).resolve().parents[1]
@@ -17,10 +18,21 @@ GRID=(39,43,48)
 LINE=(85,91,88)
 SUB=(157,160,156)
 BURNT=(251,104,75)
-FONT_DISPLAY='/usr/share/fonts/truetype/noto/NotoSansDisplay-CondensedBlack.ttf'
-FONT_TEXT='/usr/share/fonts/opentype/inter/InterDisplay-Medium.otf'
-FONT_MONO='/usr/share/fonts/truetype/liberation/LiberationMono-Regular.ttf'
-FONT_MONO_BOLD='/usr/share/fonts/truetype/liberation/LiberationMono-Bold.ttf'
+def resolve_font(filename, family):
+    """Find the actual system font location on the GitHub runner."""
+    matches=list(Path('/usr/share/fonts').rglob(filename))
+    if matches:
+        return str(matches[0])
+    path=subprocess.check_output(
+        ['fc-match','-f','%{file}',family],text=True).strip()
+    if not Path(path).is_file():
+        raise FileNotFoundError(f'Cannot resolve font {family}')
+    return path
+
+FONT_DISPLAY=resolve_font('NotoSansDisplay-CondensedBlack.ttf','Noto Sans Display:style=Condensed Black')
+FONT_TEXT=resolve_font('InterDisplay-Medium.otf','Inter Display:style=Medium')
+FONT_MONO=resolve_font('LiberationMono-Regular.ttf','Liberation Mono:style=Regular')
+FONT_MONO_BOLD=resolve_font('LiberationMono-Bold.ttf','Liberation Mono:style=Bold')
 FD=ImageFont.truetype(FONT_DISPLAY,211)
 FMAIN=ImageFont.truetype(FONT_TEXT,27)
 FM=ImageFont.truetype(FONT_MONO,17)
