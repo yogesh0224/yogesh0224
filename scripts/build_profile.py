@@ -33,7 +33,18 @@ FONT_DISPLAY=resolve_font('NotoSansDisplay-CondensedBlack.ttf','Noto Sans Displa
 FONT_TEXT=resolve_font('InterDisplay-Medium.otf','Inter Display:style=Medium')
 FONT_MONO=resolve_font('LiberationMono-Regular.ttf','Liberation Mono:style=Regular')
 FONT_MONO_BOLD=resolve_font('LiberationMono-Bold.ttf','Liberation Mono:style=Bold')
-FD=ImageFont.truetype(FONT_DISPLAY,211)
+def fitted_font(path, texts, size, max_width):
+    """Retain strong display type without clipping across font package versions."""
+    measure=ImageDraw.Draw(Image.new('RGB',(2,2)))
+    while size>20:
+        font=ImageFont.truetype(path,size)
+        widest=max(measure.textbbox((0,0),text,font=font)[2] for text in texts)
+        if widest<=max_width:
+            return font
+        size-=1
+    raise ValueError('Unable to fit display typography')
+
+FD=fitted_font(FONT_DISPLAY,['YOGESH','LUITEL.'],211,745)
 FMAIN=ImageFont.truetype(FONT_TEXT,27)
 FM=ImageFont.truetype(FONT_MONO,17)
 FM2=ImageFont.truetype(FONT_MONO_BOLD,17)
@@ -127,7 +138,7 @@ def render(t):
     return im
 
 MW,MH=900,930
-FDM=ImageFont.truetype(FONT_DISPLAY,220)
+FDM=fitted_font(FONT_DISPLAY,['YOGESH','LUITEL.'],220,810)
 FMM=ImageFont.truetype(FONT_MONO_BOLD,23)
 FBM=ImageFont.truetype(FONT_TEXT,28)
 def mobile_base():
