@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1800" height="740" viewBox="0 0 1800 740" role="img">
+<rect width="1800" height="740" fill="#ebe9e0"/>
+<rect x="1368" y="0" width="432" height="740" fill="#dcd9cf"/>
+<rect width="196" height="740" fill="#182225"/>
+<rect x="196" width="8" height="740" fill="#c34934"/>
+<path d="M1383 0 L1383 740" stroke="#182225" stroke-opacity=".065" stroke-width="1"/>
+<path d="M1429 0 L1429 740" stroke="#182225" stroke-opacity=".065" stroke-width="1"/>
+<path d="M1475 0 L1475 740" stroke="#182225" stroke-opacity=".065" stroke-width="1"/>
+<path d="M1521 0 L1521 740" stroke="#182225" stroke-opacity=".065" stroke-width="1"/>
+<path d="M1567 0 L1567 740" stroke="#182225" stroke-opacity=".065" stroke-width="1"/>
+<path d="M1613 0 L1613 740" stroke="#182225" stroke-opacity=".065" stroke-width="1"/>
+<path d="M1659 0 L1659 740" stroke="#182225" stroke-opacity=".065" stroke-width="1"/>
+<path d="M1705 0 L1705 740" stroke="#182225" stroke-opacity=".065" stroke-width="1"/>
+<path d="M1751 0 L1751 740" stroke="#182225" stroke-opacity=".065" stroke-width="1"/>
+<path d="M1797 0 L1797 740" stroke="#182225" stroke-opacity=".065" stroke-width="1"/>
+<path d="M1368 0 L1800 0" stroke="#182225" stroke-opacity=".055" stroke-width="1"/>
+<path d="M1368 46 L1800 46" stroke="#182225" stroke-opacity=".055" stroke-width="1"/>
+<path d="M1368 92 L1800 92" stroke="#182225" stroke-opacity=".055" stroke-width="1"/>
+<path d="M1368 138 L1800 138" stroke="#182225" stroke-opacity=".055" stroke-width="1"/>
+<path d="M1368 184 L1800 184" stroke="#182225" stroke-opacity=".055" stroke-width="1"/>
+<path d="M1368 230 L1800 230" stroke="#182225" stroke-opacity=".055" stroke-width="1"/>
+<path d="M1368 276 L1800 276" stroke="#182225" stroke-opacity=".055" stroke-width="1"/>
+<path d="M1368 322 L1800 322" stroke="#182225" stroke-opacity=".055" stroke-width="1"/>
+<path d="M1368 368 L1800 368" stroke="#182225" stroke-opacity=".055" stroke-width="1"/>
+<path d="M1368 414 L1800 414" stroke="#182225" stroke-opacity=".055" stroke-width="1"/>
+<path d="M1368 460 L1800 460" stroke="#182225" stroke-opacity=".055" stroke-width="1"/>
+<path d="M1368 506 L1800 506" stroke="#182225" stroke-opacity=".055" stroke-width="1"/>
+<path d="M1368 552 L1800 552" stroke="#182225" stroke-opacity=".055" stroke-width="1"/>
+<path d="M1368 598 L1800 598" stroke="#182225" stroke-opacity=".055" stroke-width="1"/>
+<path d="M1368 644 L1800 644" stroke="#182225" stroke-opacity=".055" stroke-width="1"/>
+<path d="M1368 690 L1800 690" stroke="#182225" stroke-opacity=".055" stroke-width="1"/>
+<path d="M1368 736 L1800 736" stroke="#182225" stroke-opacity=".055" stroke-width="1"/>
+<text x="38" y="161" font-family="Inter Display,DejaVu Sans,sans-serif" font-weight="900" font-size="115" letter-spacing="-9" fill="#ebe9e0">Y</text>
+<text x="38" y="262" font-family="Inter Display,DejaVu Sans,sans-serif" font-weight="900" font-size="115" letter-spacing="-9" fill="#ebe9e0">L</text>
+<circle cx="97" cy="332" r="10" fill="#c34934"/>
+<text transform="translate(105 693) rotate(-90)" font-family="PT Mono,monospace" font-size="19" letter-spacing="2" fill="#b4bcb8">WORKING NOTES   /   VOL. 0224</text>
+<path d="M243 111 L1306 111" stroke="#182225" stroke-opacity=".38" stroke-width="2"/>
+<text x="245" y="81" font-family="PT Mono,monospace" font-size="23" letter-spacing="1" fill="#697472">YOGESH / 0224</text>
+<text x="945" y="81" font-family="PT Mono,monospace" font-size="22" fill="#697472">NEPAL  /  FIELD RECORD 01</text>
+<text x="226" y="324" font-family="Inter Display,DejaVu Sans,sans-serif" font-weight="900" font-size="220" letter-spacing="-9" fill="#182225">YOGESH</text>
+<rect x="1226" y="270" width="126" height="65" fill="#ebe9e0"/>
+<text x="363" y="562" font-family="EB Garamond,Georgia,serif" font-style="italic" font-size="264" fill="#182225">Luitel</text>
+<path d="M408 588 C615 636, 902 626, 1153 568 S1294 539,1327 552" fill="none" stroke="#c34934" stroke-width="7" stroke-linecap="round"/>
+<path d="M1290 521 l39 31 l-49 18" fill="none" stroke="#c34934" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="1406" y="92" font-family="PT Mono,monospace" font-size="22" letter-spacing="1" fill="#182225">QUESTIONS / 003</text>
+<path d="M1406 115 L1750 115" stroke="#182225" stroke-width="3"/>
+<text x="1404" y="208" font-family="PT Mono,monospace" font-size="21" fill="#c34934">01</text>
+<text x="1401" y="253" font-family="Inter Display,DejaVu Sans,sans-serif" font-weight="800" font-size="37" letter-spacing="-.6" fill="#182225">WHO LEARNS?</text>
+<path d="M1405 273 L1750 273" stroke="#182225" stroke-opacity=".22" stroke-width="1.5"/>
+<text x="1404" y="325" font-family="PT Mono,monospace" font-size="21" fill="#c34934">02</text>
+<text x="1401" y="370" font-family="Inter Display,DejaVu Sans,sans-serif" font-weight="800" font-size="37" letter-spacing="-.6" fill="#182225">WHAT LEAKS?</text>
+<path d="M1405 390 L1750 390" stroke="#182225" stroke-opacity=".22" stroke-width="1.5"/>
+<text x="1404" y="442" font-family="PT Mono,monospace" font-size="21" fill="#c34934">03</text>
+<text x="1401" y="487" font-family="Inter Display,DejaVu Sans,sans-serif" font-weight="800" font-size="37" letter-spacing="-.6" fill="#182225">WHO DECIDES?</text>
+<path d="M1405 507 L1750 507" stroke="#182225" stroke-opacity=".22" stroke-width="1.5"/>
+<path d="M1379 322 C1422 282,1557 281,1722 305 C1771 321,1774 369,1720 380 C1586 403,1431 392,1384 358 C1374 348,1372 331,1379 322 Z" fill="none" stroke="#c34934" stroke-width="4" stroke-opacity=".85" stroke-linecap="round"/>
+<path d="M240 654 L1321 654" stroke="#182225" stroke-opacity=".33" stroke-width="1.5"/>
+<text x="243" y="702" font-family="PT Mono,monospace" font-size="26" letter-spacing=".5" fill="#182225">I BUILD SYSTEMS, THEN STUDY WHAT THEY CHANGE.</text>
+<text x="1411" y="694" font-family="PT Mono,monospace" font-size="18" fill="#697472">RESEARCH / ENGINEERING</text>
+</svg>

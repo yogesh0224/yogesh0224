@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1800" height="355" viewBox="0 0 1800 355" role="img">
+<rect width="1800" height="355" fill="#182225"/>
+<path d="M0 16 L1800 16" stroke="#e5e0d6" stroke-opacity=".3" stroke-width="1"/>
+<text x="65" y="115" font-family="PT Mono,monospace" font-size="20" fill="#a6b7bd">REGISTER OF OPEN QUESTIONS</text>
+<text x="57" y="260" font-family="EB Garamond,Georgia,serif" font-size="147" font-style="italic" fill="#ebe9e0">Work,</text>
+<path d="M62 286 C170 301,338 297,459 264" stroke="#c34934" stroke-width="7" fill="none" stroke-linecap="round"/>
+<path d="M493 48 L493 316" stroke="#ebe9e0" stroke-opacity=".2" stroke-width="1.5"/>
+<text x="523" y="83" font-family="PT Mono,monospace" font-size="22" fill="#c34934">01 / DISCLOSURE</text>
+<text x="523" y="151" font-family="Inter Display,DejaVu Sans,sans-serif" font-size="29" font-weight="700" fill="#ebe9e0">ShadowLeak</text>
+<text x="523" y="193" font-family="PT Mono,monospace" font-size="22" fill="#b2bfbd">What can models</text>
+<text x="523" y="224" font-family="PT Mono,monospace" font-size="22" fill="#b2bfbd">reveal?</text>
+<circle cx="528" cy="289" r="9" stroke="#c34934" stroke-width="3" fill="none"/>
+<path d="M541 290 L767 290" stroke="#b2bfbd" stroke-opacity=".48" stroke-width="2"/>
+<path d="M807 48 L807 316" stroke="#ebe9e0" stroke-opacity=".2" stroke-width="1.5"/>
+<text x="837" y="83" font-family="PT Mono,monospace" font-size="22" fill="#c34934">02 / LEARNING</text>
+<text x="837" y="151" font-family="Inter Display,DejaVu Sans,sans-serif" font-size="29" font-weight="700" fill="#ebe9e0">GenAI in education</text>
+<text x="837" y="193" font-family="PT Mono,monospace" font-size="22" fill="#b2bfbd">What actually</text>
+<text x="837" y="224" font-family="PT Mono,monospace" font-size="22" fill="#b2bfbd">changes?</text>
+<circle cx="842" cy="289" r="9" stroke="#c34934" stroke-width="3" fill="none"/>
+<path d="M855 290 L1081 290" stroke="#b2bfbd" stroke-opacity=".48" stroke-width="2"/>
+<path d="M1122 48 L1122 316" stroke="#ebe9e0" stroke-opacity=".2" stroke-width="1.5"/>
+<text x="1152" y="83" font-family="PT Mono,monospace" font-size="22" fill="#c34934">03 / OVERSIGHT</text>
+<text x="1152" y="151" font-family="Inter Display,DejaVu Sans,sans-serif" font-size="29" font-weight="700" fill="#ebe9e0">Governance audit</text>
+<text x="1152" y="193" font-family="PT Mono,monospace" font-size="22" fill="#b2bfbd">Who is left out?</text>
+<circle cx="1157" cy="289" r="9" stroke="#c34934" stroke-width="3" fill="none"/>
+<path d="M1170 290 L1396 290" stroke="#b2bfbd" stroke-opacity=".48" stroke-width="2"/>
+<path d="M1434 48 L1434 316" stroke="#ebe9e0" stroke-opacity=".2" stroke-width="1.5"/>
+<text x="1464" y="83" font-family="PT Mono,monospace" font-size="22" fill="#c34934">04 / AGENCY</text>
+<text x="1464" y="151" font-family="Inter Display,DejaVu Sans,sans-serif" font-size="29" font-weight="700" fill="#ebe9e0">Human-centered ML</text>
+<text x="1464" y="193" font-family="PT Mono,monospace" font-size="22" fill="#b2bfbd">Who stays in</text>
+<text x="1464" y="224" font-family="PT Mono,monospace" font-size="22" fill="#b2bfbd">control?</text>
+<circle cx="1469" cy="289" r="9" stroke="#c34934" stroke-width="3" fill="none"/>
+<path d="M1482 290 L1708 290" stroke="#b2bfbd" stroke-opacity=".48" stroke-width="2"/>
+</svg>
